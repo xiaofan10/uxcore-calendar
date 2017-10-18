@@ -176,7 +176,7 @@ class Calendar extends React.Component {
 
     const triggerStyle = {};
     if (p.inputWidth) {
-      triggerStyle.width = `${p.inputWidth}px`;
+      triggerStyle.width = p.inputWidth;
     }
 
     const inputClassName = classnames('kuma-input', {
